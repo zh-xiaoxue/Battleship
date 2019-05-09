@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BattlieshipC", "BattlieshipC.vbproj", "{E0008BF7-18DF-4673-A702-0D5F7E6C5D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0008BF7-18DF-4673-A702-0D5F7E6C5D0B}.Debug|x86.ActiveCfg = Debug|x86
+		{E0008BF7-18DF-4673-A702-0D5F7E6C5D0B}.Debug|x86.Build.0 = Debug|x86
+		{E0008BF7-18DF-4673-A702-0D5F7E6C5D0B}.Release|x86.ActiveCfg = Release|x86
+		{E0008BF7-18DF-4673-A702-0D5F7E6C5D0B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1669B32-42B0-45BF-8BE6-68D2A23D0371}
+	EndGlobalSection
+EndGlobal
