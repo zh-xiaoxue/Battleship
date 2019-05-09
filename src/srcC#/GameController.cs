@@ -125,7 +125,7 @@ public static class GameController
 			UtilityFunctions.AddExplosion(row, column);
 		}
 
-		Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+		Audio.PlaySoundEffect(GameResources.GameSound("Impact"));
 
 		UtilityFunctions.DrawAnimationSequence();
 	}
