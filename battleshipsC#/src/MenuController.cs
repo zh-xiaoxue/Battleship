@@ -284,13 +284,18 @@ static class MenuController
 	private static void PerformSetupMenuAction(int button)
 	{
 		switch (button) {
-			case SETUP_MENU_EASY_BUTTON:
-				GameController.SetDifficulty(AIOption.Easy);
+            //When Easy button is being clicked, the difficulty changes to Easy from the AIOptions
+            case SETUP_MENU_EASY_BUTTON:
+                GameController.SetDifficulty(AIOption.Easy);
 				break;
-			case SETUP_MENU_MEDIUM_BUTTON:
+
+            //When Medium button is being clicked, the difficulty changes to Medium from the AIOptions
+            case SETUP_MENU_MEDIUM_BUTTON:
 				GameController.SetDifficulty(AIOption.Medium);
 				break;
-			case SETUP_MENU_HARD_BUTTON:
+
+            //When Hard button is being clicked, the difficulty changes to Hard from the AIOptions
+            case SETUP_MENU_HARD_BUTTON:
 				GameController.SetDifficulty(AIOption.Hard);
 				break;
 		}
