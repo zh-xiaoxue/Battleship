@@ -28,3 +28,12 @@ C:\Users\Constantine\Desktop\battleshipsC#\obj\x86\Debug\BattlieshipC.csproj.Cor
 C:\Users\Constantine\Desktop\battleshipsC#\obj\x86\Debug\BattlieshipC.csproj.CopyComplete
 C:\Users\Constantine\Desktop\battleshipsC#\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\Constantine\Desktop\battleshipsC#\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\bin\Debug\lib\SwinGame.dll.mdb
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\bin\Debug\ConsoleApplication.exe
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\bin\Debug\ConsoleApplication.pdb
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\obj\x86\Debug\BattlieshipC.csprojAssemblyReference.cache
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\obj\x86\Debug\BattlieshipC.csproj.CoreCompileInputs.cache
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\obj\x86\Debug\BattlieshipC.csproj.CopyComplete
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Thilinda Fernando\Desktop\Thilinda Battleship\Battleship\battleshipsC#\obj\x86\Debug\ConsoleApplication.pdb

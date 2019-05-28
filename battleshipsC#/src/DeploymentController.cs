@@ -47,18 +47,32 @@ static class DeploymentController
 	/// </remarks>
 	public static void HandleDeploymentInput()
 	{
-		if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
+        if (SwinGame.KeyTyped(KeyCode.vk_1) | SwinGame.KeyTyped(KeyCode.vk_t)) _selectedShip = ShipName.Tug;
+
+        if (SwinGame.KeyTyped(KeyCode.vk_2) | SwinGame.KeyTyped(KeyCode.vk_d)) _selectedShip = ShipName.Destroyer;
+
+        if (SwinGame.KeyTyped(KeyCode.vk_3) | SwinGame.KeyTyped(KeyCode.vk_s)) _selectedShip = ShipName.Submarine;
+
+        if (SwinGame.KeyTyped(KeyCode.vk_4) | SwinGame.KeyTyped(KeyCode.vk_b)) _selectedShip = ShipName.Battleship;
+
+        if (SwinGame.KeyTyped(KeyCode.vk_5) | SwinGame.KeyTyped(KeyCode.vk_a)) _selectedShip = ShipName.AircraftCarrier;
+
+        if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
 			GameController.AddNewState(GameState.ViewingGameMenu);
 		}
-
-		if (SwinGame.KeyTyped(KeyCode.vk_UP) | SwinGame.KeyTyped(KeyCode.vk_DOWN)) {
+        //If an up or down keyboard move upwards or downwards
+        if (SwinGame.KeyTyped(KeyCode.vk_UP) | SwinGame.KeyTyped(KeyCode.vk_DOWN)) {
 			_currentDirection = Direction.UpDown;
 		}
-		if (SwinGame.KeyTyped(KeyCode.vk_LEFT) | SwinGame.KeyTyped(KeyCode.vk_RIGHT)) {
+
+
+        //If an left or right keyboard move left or right
+        if (SwinGame.KeyTyped(KeyCode.vk_LEFT) | SwinGame.KeyTyped(KeyCode.vk_RIGHT)) {
 			_currentDirection = Direction.LeftRight;
 		}
 
-		if (SwinGame.KeyTyped(KeyCode.vk_r)) {
+        //If key R is pressed place randomly
+        if (SwinGame.KeyTyped(KeyCode.vk_r)) {
 			GameController.HumanPlayer.RandomizeDeployment();
 		}
 
